@@ -1,0 +1,26 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1da38cc2_002D41d0_002D4f3d_002Da5d4_002D4a62a76bacfe/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestMakeDiamond" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::5D63F707-7AD3-4942-808B-DFC33F01EC18::net6.0::diamond.Test.TestMakeDiamond&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=258682ce_002Deb20_002D4746_002Db27e_002D7b76d556952e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Teste se gera o diamante corretamente. #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::5D63F707-7AD3-4942-808B-DFC33F01EC18::net6.0::diamond.Test.TestMakeDiamond.TestPrintDiamond&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::5D63F707-7AD3-4942-808B-DFC33F01EC18::net6.0::diamond.Test.TestMakeDiamond.TestGetLetter&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::5D63F707-7AD3-4942-808B-DFC33F01EC18::net6.0::diamond.Test.TestEmail.TestWantToSendAnEmail&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::5D63F707-7AD3-4942-808B-DFC33F01EC18::net6.0::diamond.Test.TestEmail&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::5D63F707-7AD3-4942-808B-DFC33F01EC18::net6.0::diamond.Test.TestPdfCreator&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::5D63F707-7AD3-4942-808B-DFC33F01EC18::net6.0::diamond.Test.TestMakeDiamond&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::5D63F707-7AD3-4942-808B-DFC33F01EC18::net6.0::diamond.Test.TestProgram&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3fbe10dd_002D4768_002D4fbe_002D8e9a_002Dcab900375492/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;diamond.Test&amp;gt; #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/home/imarmendes/Documentos/Trybe/testes/Voalle/projeto diamante/src/diamond.Test" Presentation="&amp;lt;diamond.Test&amp;gt;" /&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=eefd75b6_002Db852_002D41a1_002D82fe_002D155b99c7018b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Teste se gera o diamante corretamente." xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::5D63F707-7AD3-4942-808B-DFC33F01EC18::net6.0::diamond.Test.TestMakeDiamond.TestPrintDiamond&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>
