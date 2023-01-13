@@ -34,8 +34,8 @@ public class TestEmail
         }
     }
     
-    [Theory(DisplayName = "Testa se  o e-mail e se valida o formato do e-mail - Success")]
-    [InlineData("imarteste@outloock.com", "Digite o e-mail para o qual deseja envia.")]
+    [Theory(DisplayName = "Testa se o e-mail é válido e o formato do e-mail - Success")]
+    [InlineData("imarteste@outloock.com", "Digite o e-mail para o qual deseja enviar.")]
     public void TestGetEmailToSendSuccess(string emailEntry, string stringExpected)
     {
         using (var stringWriter = new StringWriter())
@@ -53,11 +53,11 @@ public class TestEmail
         }
     }
     
-    [Theory(DisplayName = "Testa se  o e-mail e se valida o formato do e-mail - Fail")]
-    [InlineData("@gmail.com\nimarteste@outlook.com", "imarteste@outlook.com", "Digite o e-mail para o qual deseja envia.", "Email inválido tente novamente:")]
-    [InlineData("as@.com\nimarteste@outlook.com", "imarteste@outlook.com", "Digite o e-mail para o qual deseja envia.", "Email inválido tente novamente:")]
-    [InlineData("as@gmail.\nimarteste@outlook.com", "imarteste@outlook.com", "Digite o e-mail para o qual deseja envia.", "Email inválido tente novamente:")]
-    [InlineData("@\nimarteste@outlook.com", "imarteste@outlook.com", "Digite o e-mail para o qual deseja envia.", "Email inválido tente novamente:")]
+    [Theory(DisplayName = "Testa se o e-mail é válido e o formato do e-mail - Fail")]
+    [InlineData("@gmail.com\nimarteste@outlook.com", "imarteste@outlook.com", "Digite o e-mail para o qual deseja enviar.", "Email inválido tente novamente:")]
+    [InlineData("as@.com\nimarteste@outlook.com", "imarteste@outlook.com", "Digite o e-mail para o qual deseja enviar.", "Email inválido tente novamente:")]
+    [InlineData("as@gmail.\nimarteste@outlook.com", "imarteste@outlook.com", "Digite o e-mail para o qual deseja enviar.", "Email inválido tente novamente:")]
+    [InlineData("@\nimarteste@outlook.com", "imarteste@outlook.com", "Digite o e-mail para o qual deseja enviar.", "Email inválido tente novamente:")]
     public void TestGetEmailToSendFail(string emailEntry, string emailExpected, string stringInitialExpected, string stringFinalExpected)
     {
         using (var stringWriter = new StringWriter())

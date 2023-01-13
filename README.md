@@ -4,7 +4,7 @@
 # Contexto
 Esse projeto tem como objetivo criar uma aplicação onde seja possível a partir de uma letra passada por pele terminal/console, criar uma figura no formato de diamante conforme exemplo abaixo, letra passada determina o tamanho do diamante.
   
-![img_1.png](img_1.png)!
+![img_1.png](img_1.png)
 
 ## Tecnologias usadas
 

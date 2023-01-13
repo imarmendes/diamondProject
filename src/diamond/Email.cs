@@ -19,7 +19,7 @@ namespace diamond
     }
     public static string GetEmailToSend()
     {
-      Console.WriteLine("Digite o e-mail para o qual deseja envia.");
+      Console.WriteLine("Digite o e-mail para o qual deseja enviar.");
       while (true)
       {
         var emailTo = Console.ReadLine().ToLower();
