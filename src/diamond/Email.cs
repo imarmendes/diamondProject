@@ -43,15 +43,15 @@ namespace diamond
     public static void SendEmail(string letter, string diamond)
     {
       SmtpMail oMail = new SmtpMail("TryIt");
-
-      oMail.From = "imarteste@outlook.com";
+      var from = "imarteste@outlook.com";
+      oMail.From = from;
       oMail.To = GetEmailToSend();
       oMail.Subject = "Diamante usando a letra: " + letter + "\n";
       oMail.TextBody = diamond + Constants.SIGNATURE;
       
       SmtpServer oServer = new SmtpServer("smtp.office365.com");
 
-      oServer.User = "imarteste@outlook.com";
+      oServer.User = from;
       oServer.Password = "teste!@#";
       oServer.Port = 587;
 

@@ -9,7 +9,9 @@ public class TestProgram
 {
     [Theory(DisplayName = "Teste se passando a letra D, gera a quantidade de linhas esperada.")]
     [InlineData("d\nNão\nNão\n", 13)]
-    [InlineData("d\nSim\nimarmende@gmail.com\nNão\n", 21)]
+    // A linha abaixo somente pode ser execultada de estiver coom e-mail válido para envio.
+    // ressalto que a Microsoft tem suspendido o e-mail depois de alguns envios.
+    // [InlineData("d\nSim\nimarmende@gmail.com\nNão\n", 21)] 
     [InlineData("d\nNão\nSim\n", 15)]
     public void TestConsoleIntefaceCountLines(string comandEntry, int linesCountExpected )
     {
